@@ -27,9 +27,7 @@
     font-size: 24px;
     line-height: 34px;
     /* or 142% */
-
     letter-spacing: 0.01em;
-
     color: #ffffff;
 }
 .banner-item-description__submit .btn-light{
@@ -42,4 +40,21 @@
 .banner-item .banner-item-video img{
     display: inline;
     width: unset
+}
+.owl-carousel-banner {
+    position: relative;
+}
+.custom-prev-btn-banner{
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    left: 20px;
+    font-size: 40px;
+}
+.custom-next-btn-banner{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
 }
