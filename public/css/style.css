@@ -1,0 +1,14 @@
+.btn-light {
+    padding: 5px 26px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FFF;
+}
+.clear-fix-150{
+    height: 120px
+}
+.mb-20px{
+    margin-bottom: 20px !important;
+}

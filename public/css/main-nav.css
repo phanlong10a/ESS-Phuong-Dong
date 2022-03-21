@@ -3,21 +3,44 @@
     width: 100%;
     display: flex;
     padding-top: 25px;
-    padding-left: 120px;
-    padding-right: 120px;
-    border-bottom: 1px solid #FFF114;
+    border-bottom: 1px solid #fff114;
 }
-.main-nav-logo{
+.main-nav-logo {
     margin-right: 120px;
 }
-.main-nav .main-nav-utils{
+.main-nav .main-nav-utils {
     flex-grow: 1;
 }
-.main-nav .main-nav-utils-actions{
+.main-nav .main-nav-utils-actions {
     text-align: right;
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-.main-nav-utils-actions-dropdown{
-    display: inline-block
+.main-nav-utils-actions .btn-light {
+    margin-right: 30px;
+    padding: 5px 26px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #FFF;
+    position: relative;
+}
+.main-nav-utils-actions .light-through{
+    height: 80%;
+    width: 2px;
+    color: #FFF
+}
+.main-nav-utils-actions-dropdown {
+    display: inline-block;
+    padding: 0px;
+    color: #fff;
+    margin-left: 15px;
+}
+.main-nav-utils-actions-dropdown a{
+    color: #fff
 }
 .main-nav-utils-navigation .navbar {
     padding-bottom: 0px;
@@ -26,22 +49,25 @@
     justify-content: space-between;
     flex-grow: 1;
 }
-.main-nav-utils-navigation .nav-item .nav-link{
+.main-nav-utils-navigation .nav-item .nav-link {
     text-transform: uppercase;
     color: #fff;
-    font-weight: 900;
+    font-weight: 700;
+    font-size: 14px;
     position: relative;
 }
-.main-nav-utils-navigation .nav-item .nav-link.active, .main-nav-utils-navigation .nav-item .nav-link:hover{
-    color:#1F306E;
+.main-nav-utils-navigation .nav-item .nav-link.active,
+.main-nav-utils-navigation .nav-item .nav-link:hover {
+    color: #1f306e;
 }
 
-.main-nav-utils-navigation .nav-item .nav-link.active::after, .main-nav-utils-navigation .nav-item .nav-link:hover::after{
-    content: '';
+.main-nav-utils-navigation .nav-item .nav-link.active::after,
+.main-nav-utils-navigation .nav-item .nav-link:hover::after {
+    content: "";
     height: 3px;
-    background-color: #FFF114;
+    background-color: #fff114;
     position: absolute;
     bottom: 0;
     width: 100%;
-    left: 0px
+    left: 0px;
 }
