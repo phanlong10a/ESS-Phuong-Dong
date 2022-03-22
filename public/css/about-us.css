@@ -1,0 +1,110 @@
+.image-cover {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+.about-us-wrap {
+  max-width: 1252px;
+  box-sizing: border-box;
+  padding: 0 25px;
+  margin: 30px auto 0px;
+  margin-top: -75px;
+}
+.about-us-list-slogan {
+  border: 1px solid #10375c;
+  border-radius: 8px;
+  display: grid;
+  background: #FFF;
+  grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+}
+.about-us-list-slogan .about-slogan-item {
+  box-sizing: border-box;
+  padding: 20px;
+  position: relative;
+}
+.about-us-list-slogan .about-slogan-item::before {
+  content: "";
+  position: absolute;
+  top: 32%;
+  width: calc(100% - 40px);
+  height: 3px;
+  background-color: #fff114;
+  border-bottom: 1px solid #1f306e;
+}
+.about-slogan-item .about-slogan-header {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+.about-slogan-header .about-slogan-header__icon {
+  height: 40px;
+  width: 40px;
+}
+.about-slogan-header .about-slogan-header__title {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1f306e;
+}
+.about-slogan-item .about-slogan-item__content {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  text-align: justify;
+}
+.about-us-main {
+  margin-top: 65px;
+  display: flex;
+  gap: 40px;
+}
+.about-us-main .about-us-thumb {
+  position: relative;
+  height: 709px;
+  width: 505px;
+}
+.about-us-thumb .about-us-thumb__sub1 {
+  height: 650px;
+  width: 400px;
+}
+.about-us-thumb .about-us-thumb__sub2 {
+  height: 255px;
+  width: 321px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+.about-us-main .about-us-content {
+  flex: 1 1 300px;
+}
+.about-us-content .about-us-content__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 19px;
+  text-align: justify;
+  color: #000000;
+}
+@media screen and (max-width: 1025px) {
+  .about-us-main {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .about-us-main {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 525px) {
+  .about-us-main {
+    margin: unset;
+  }
+  .about-us-main .about-us-thumb {
+    width: 100%;
+  }
+  .about-us-thumb .about-us-thumb__sub1 {
+    width: 90%;
+  }
+}
