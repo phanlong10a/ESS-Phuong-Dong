@@ -60,3 +60,6 @@
     height: 5px;
     background-color: #fff114;
 }
+.clear-both{
+    clear: both
+}
