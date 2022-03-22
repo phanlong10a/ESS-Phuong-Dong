@@ -1,0 +1,22 @@
+.default-header-section-our-customs{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 30px;
+    text-align: center;
+    color: #1F306E;
+    margin: 24px 0px;
+    padding-bottom: 24px;
+    position: relative;
+    display: inline-block;
+}
+.default-header-section-our-customs::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: #FFF114;
+}
