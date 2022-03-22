@@ -20,24 +20,7 @@
     height: 5px;
     background-color: #FFF114;
 }
-
-
-
-
-.title-job-vancancies {
-    color: #1F306E;
-    position: relative;
-}
-.title-job-vancancies h1::after{
-    content: '';
-    height: 3px;
-    background-color: #FFF114;
-    position: absolute;
-    bottom: 0;
-    width: 5%;
-    left: 47.5%;
-}
-.job-main{
+.our-customers-main{
     display: flex;
     justify-content: space-evenly;
 }
@@ -47,42 +30,6 @@
     height: 500px;
     position: relative;
 }
-.job-details h4{
-    font-size: 18px;
-}
-
-.job-details span{
-    font-size: 14px;
-}
-
-.text-1{
-    font-size: 16px;
-}
-
-.text-2{
-    font-size: 12px;
-}
-.recommend div{
-    background: #FFFBB5;
-    padding: 3px;
-    display: flex;
-    align-items: center;
-    font-size: 12px;
-}
-
-.btn-job1 {
-    width: 47%;
-    background: #1F306E;
-    font-weight: bold;
-}
-.btn-job2 {
-    width: 47%;
-    font-weight: bold;
-}
-.color-violet {
-    color: #1F306E;
-}
-
 .our-customers-icon {
     height: 60px;
 }
