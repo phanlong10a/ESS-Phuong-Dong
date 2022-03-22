@@ -1,0 +1,312 @@
+/* Custom Name */
+.main-font {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.slightly-bold {
+    font-weight: 500 !important;
+}
+
+.bold {
+    font-weight: 600 !important;
+}
+
+.bolder {
+    font-weight: 700 !important;
+}
+
+.action_icon {
+    margin-right: 18px;
+}
+
+.highlight_input,
+.highlight_parent_input input,
+.highlight_parent_uiselect span.ui-select-toggle {
+    border: 2px solid red !important;
+    border-radius: 5px !important;
+}
+
+.input.black_placeholder::placeholder {
+    color: #333 !important;
+}
+
+a.hover_underline:hover {
+    text-decoration: underline !important;
+}
+
+/* **************************************************************** */
+
+/* Cursor */
+.cursor-pointer {
+    cursor: pointer !important;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+.cursor-text {
+    cursor: text !important;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed !important;
+}
+
+/* Color */
+.color-primary {
+    color: var(--primary-color) !important;
+}
+
+.color-bold-red {
+    color: #E60000 !important;
+}
+
+/* Position */
+.position-relative {
+    position: relative !important;
+}
+
+.position-absolute {
+    position: absolute !important;
+}
+
+.t-0 {
+    top: 0 !important;
+}
+
+.b-0 {
+    bottom: 0 !important;
+}
+
+.r-0 {
+    right: 0 !important;
+}
+
+.l-0 {
+    left: 0 !important;
+}
+
+/* Width & Height */
+.w-100 {
+    width: 100% !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.max-w-120 {
+    max-width: 120px !important;
+}
+
+.min-w-150 {
+    min-width: 150px !important;
+}
+
+.line-height-1 {
+    line-height: 1 !important;
+}
+
+.line-height-1-5 {
+    line-height: 1.5 !important;
+}
+
+.line-height-3 {
+    line-height: 3 !important;
+}
+
+/* Border & Radius */
+.border-none {
+    border: none !important;
+}
+
+.radius-2 {
+    border-radius: 2px !important;
+}
+
+.radius-3 {
+    border-radius: 3px !important;
+}
+
+.radius-5 {
+    border-radius: 5px !important;
+}
+
+.radius-p-50 {
+    border-radius: 50% !important;
+}
+
+/* Text */
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.text-capitalize {
+    text-transform: capitalize !important;
+}
+
+/* Font */
+.fz-10 {
+    font-size: 10px !important;
+}
+
+.fz-12 {
+    font-size: 12px !important;
+}
+
+.fz-15 {
+    font-size: 15px !important;
+}
+
+.fz-16 {
+    font-size: 16px !important;
+}
+
+.fz-18 {
+    font-size: 18px !important;
+}
+
+.fz-20 {
+    font-size: 20px !important;
+}
+
+.fz-24 {
+    font-size: 24px !important;
+}
+
+.fz-25 {
+    font-size: 25px !important;
+}
+
+.fz-30 {
+    font-size: 30px !important;
+}
+
+/* Display */
+.none {
+    display: none !important;
+}
+
+.block {
+    display: block !important;
+}
+
+.inline-block {
+    display: inline-block !important;
+}
+
+.flex {
+    display: flex !important;
+}
+
+.inline-flex {
+    display: inline-flex !important;
+}
+
+.align-center {
+    align-items: center !important;
+}
+
+.align-start {
+    align-items: flex-start !important;
+}
+
+.align-end {
+    align-items: flex-end !important;
+}
+
+.justify-center {
+    justify-content: center !important;
+}
+
+.justify-between {
+    justify-content: space-between !important;
+}
+
+.justify-around {
+    justify-content: space-around !important;
+}
+
+.justify-end {
+    justify-content: flex-end !important;
+}
+
+.justify-start {
+    justify-content: flex-start !important;
+}
+
+.flex-direct-col {
+    flex-direction: column !important;
+}
+
+.flex-direct-row {
+    flex-direction: row !important;
+}
+
+.flex-direct-col-rv {
+    flex-direction: column-reverse !important;
+}
+
+.flex-direct-row-rv {
+    flex-direction: row-reverse !important;
+}
+
+.flex-1 {
+    flex: 1 !important;
+}
+
+.flex-2 {
+    flex: 2 !important;
+}
+
+.flex-3 {
+    flex: 3 !important;
+}
+
+/* Float */
+.float-unset {
+    float: unset !important;
+}
+
+.float-left {
+    float: left !important;
+}
+
+.float-right {
+    float: right !important;
+}
+
+/* Background */
+.bgc-white {
+    background-color: #fff !important;
+}
+
+/* Transform */
+.translate-0 {
+    transform: translate(0);
+}
+
+.translateX-0 {
+    transform: translateX(0);
+}
+
+.translateY-0 {
+    transform: translateY(0);
+}

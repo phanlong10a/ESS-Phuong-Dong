@@ -1,6 +1,7 @@
 $(document).ready(() => {
     const owlCarouselBanner = $('.owl-carousel-banner')
     const owlCarouselCertificate = $('.owl-carousel-certificate')
+    const mainNav = $('#main-nav')
     owlCarouselBanner.owlCarousel({
         items: 1,
         loop: true,
@@ -20,8 +21,8 @@ $(document).ready(() => {
         nav: false,
         dots: false,
         responsive: {
-            1440:{
-                items:4,
+            1440: {
+                items: 4,
             },
             1024: {
                 items: 3,
@@ -34,4 +35,19 @@ $(document).ready(() => {
             }
         }
     })
+
+
+
+    window.addEventListener("scroll", (event) => {
+        let scroll = this.scrollY;
+        if(scroll > screen.height){
+            if(!mainNav.hasClass('background-blue')){
+                mainNav.addClass('background-blue')
+            }
+        }else{
+            if(mainNav.hasClass('background-blue')){
+                mainNav.removeClass('background-blue')
+            }
+        }
+    });
 })
