@@ -1,0 +1,9 @@
+.certificate-content-img {
+    text-align: center;
+}
+.certificate-content-img img{
+    display: inline !important;
+    width: 285px !important;
+    height:395px;
+    object-fit: cover;
+}
