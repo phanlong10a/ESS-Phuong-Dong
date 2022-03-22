@@ -1,0 +1,60 @@
+.full-screen-bg {
+    background-image: url("../images/bg-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.banner-item-description{
+    max-width: 50%;
+}
+.banner-item-video{
+    text-align: right;
+    flex-grow: 1;
+}
+.banner-item{
+    align-items: center;
+    height: calc(100vh - 150px);
+}
+.banner-item-description__header {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 74px;
+    letter-spacing: 0.01em;
+    color: #1f306e;
+}
+.banner-item-description__content {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    /* or 142% */
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.banner-item-description__submit .btn-light{
+    padding: 12px 23px !important;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.banner-item .banner-item-video img{
+    display: inline;
+    width: unset
+}
+.owl-carousel-banner {
+    position: relative;
+}
+.custom-prev-btn-banner{
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    left: 20px;
+    font-size: 40px;
+}
+.custom-next-btn-banner{
+    color: #FFF;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+}
