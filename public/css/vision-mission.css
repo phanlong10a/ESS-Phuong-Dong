@@ -24,8 +24,7 @@
 }
 
 .vision-misson .vision-misson_content-wrapper {
-    width: 100%;
-    position: absolute;
+    position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -41,21 +40,63 @@
 }
 
 .vision-misson_content .content_img-wrapper {
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
 
 .vision-misson_content .content_title {
-    font-size: 48px;
-    margin-bottom: 24px;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .vision-misson_content .content-divider {
     width: 100%;
     height: 5px;
-    margin-bottom: 35px;
+    margin-bottom: 2rem;
     background-color: #FFF114;
 }
 
 .vision-misson_content .content-text {
     text-align: justify;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+    .vision-misson_content .content_title {
+        font-size: 2rem;
+    }
+
+    .vision-misson_content .content-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .vision-misson_content .content_title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .vision-misson_content .content-divider {
+        margin-bottom: 1rem;
+    }
+
+    .vision-misson_content .content-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vision-misson {
+        padding-top: 0;
+        height: 600px;
+    }
+
+    .vision-misson_column {
+        margin-bottom: 40px;
+    }
+
+    .vision-misson_column:last-child {
+        margin-bottom: 0;
+    }
 }
