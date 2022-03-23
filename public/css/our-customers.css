@@ -23,6 +23,7 @@
 .our-customers-main{
     display: flex;
     justify-content: space-evenly;
+    position: relative;
 }
 .our-customers-items {
     border: 1px solid #000;
@@ -82,16 +83,16 @@
 .custom-prev-btn-our-customers{
     position: absolute;
     height: 20px;
-    top: 0;
+    top: 50%;
     color: #000;
-    left: 20px;
+    left: -30px;
     font-size: 40px;
 }
 .custom-next-btn-our-customers{
     color: #000;
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: -30px;
     font-size: 40px;
 }  
 @media screen and (max-width: 450px) {
@@ -108,5 +109,8 @@
     }
     .details-main-customers {
         padding-left: 3%;
+    }
+    .owl-navigation-our-customers{
+        display: none;
     }
 }

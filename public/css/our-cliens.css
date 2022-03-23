@@ -1,0 +1,32 @@
+.our-clients-content-img {
+    text-align: center;
+}
+.our-clients-content-img img{
+    display: inline !important;
+    width: unset !important;
+}
+.our-clients-content{
+    position: relative;
+}
+
+.custom-prev-btn-our-clients{
+    position: absolute;
+    height: 20px;
+    top: -5px;
+    color: #000;
+    left: -30px;
+    font-size: 40px;
+}
+.custom-next-btn-our-clients{
+    color: #000;
+    position: absolute;
+    height: 20px;
+    top: -5px;
+    right: -30px;
+    font-size: 40px;
+} 
+@media screen and (max-width: 768px) {
+    .owl-navigation-our-clients{
+        display: none;
+    }
+}

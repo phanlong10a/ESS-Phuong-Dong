@@ -108,5 +108,16 @@
 @media screen and (max-width: 992px) {
     .footer_contact {
         margin-top: 50px;
+        
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer_contact {
+        margin-top: 50px;
+        
+    }
+    .footer_logo-map{
+        text-align: center;
     }
 }

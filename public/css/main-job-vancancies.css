@@ -58,6 +58,32 @@
 .job-icon {
     height: 50px;
 }
+
+.job-main{
+    position: relative;
+}
+
+.custom-prev-btn-job-vacancies{
+    position: absolute;
+    height: 20px;
+    top: 50%;
+    color: #000;
+    left: -30px;
+    font-size: 40px;
+}
+.custom-next-btn-job-vacancies{
+    color: #000;
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    font-size: 40px;
+} 
+@media screen and (max-width: 768px) {
+    .owl-navigation-job-vacancies{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 424px){
     
 }

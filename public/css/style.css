@@ -12,7 +12,9 @@
 .mb-20px {
     margin-bottom: 20px !important;
 }
-
+.mt-25px{
+    margin-top: 25px !important;
+}
 .default-header-section {
     text-align: center;
 }
@@ -44,7 +46,7 @@
     font-weight: 600;
     font-size: 36px;
     line-height: 44px;
-    text-align: center;
+    text-align: left;
     color: #1f306e;
     margin: 24px 0px;
     padding-bottom: 24px;
