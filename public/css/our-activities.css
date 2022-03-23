@@ -1,0 +1,92 @@
+.background-full-size {
+    min-height: 610px;
+    background-image: linear-gradient(to right);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/public/images/activitie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.background-full-size .our-activities-container {
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+.our-activities-container .our-activities-nav {
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.our-activities-nav .our-activities-nav__item {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #e6e8ec;
+    margin: 0;
+}
+.our-activities-nav .activities-nav__item--active {
+    padding: 5px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+}
+.our-activities-container .our-activities-carousel {
+    margin-top: 35px;
+}
+.our-activities-carousel .our-activities-item {
+    text-align: center;
+}
+.our-activities-item .our-activities-content {
+    padding-top: 10px;
+}
+.our-activities-content .our-activities-content__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.our-activities-content .our-activities-content_des {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f4f5f6;
+}
+.our-activities-item .our-activities-item__image {
+    height: 370px;
+    border-radius: 10px;
+}
+.our-activities-item .our-activities-item__image img {
+    /* width: unset !important; */
+    display: inline;
+    width: 300px !important;
+    height: 100%;
+    object-fit: cover;
+}
+.custom-prev-btn-activities{
+    position: absolute;
+    top: 50%;
+    color: #FFF;
+    left: -20px;
+    z-index: 999;
+    font-size: 40px;
+}
+.custom-next-btn-activities{
+    color: #FFF;
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    right: -30px;
+    font-size: 40px;
+}
+@media screen and (max-width: 426px) {
+    .our-activities-item .our-activities-item__image {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 769px) {
+    
+    .custom-next-btn-activities, .custom-prev-btn-activities{
+        display: none;
+    }
+}

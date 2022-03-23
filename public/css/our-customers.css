@@ -1,0 +1,112 @@
+.default-header-section-our-customs{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 30px;
+    text-align: center;
+    color: #1F306E;
+    margin: 24px 0px;
+    padding-bottom: 24px;
+    position: relative;
+    display: inline-block;
+}
+.default-header-section-our-customs::after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    bottom: 0;
+    left: 0;
+    height: 5px;
+    background-color: #FFF114;
+}
+.our-customers-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-customers-items {
+    border: 1px solid #000;
+    border-radius: 5px;
+    height: 500px;
+    position: relative;
+}
+.our-customers-icon {
+    height: 60px;
+}
+.our-customers-icon img{
+    width: 30px;
+    width: 20% !important;
+    object-fit: cover;
+}
+.text-content-our-customers {
+    font-size: 16px;
+}
+.avata-customers {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.avata-customers img{
+    overflow: hidden;
+    border-radius: 50%;
+    width: 50px !important;
+    height: 50px !important;
+    object-fit: cover;
+}
+.avata-name-customers {
+    font-weight: bold;
+}
+.avata-name-customers {
+    font-size: 16px;
+}
+.details-customers {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+.details-customers .details {
+    font-size: 12px;
+}
+.logo-customers {
+    width: 100%;
+}
+.logo-customers img{
+    width: 25% !important;
+    object-fit: cover;
+}
+.owl-carousel-our-customers {
+    position: relative;
+}
+.custom-prev-btn-our-customers{
+    position: absolute;
+    height: 20px;
+    top: 0;
+    color: #000;
+    left: 20px;
+    font-size: 40px;
+}
+.custom-next-btn-our-customers{
+    color: #000;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 40px;
+}  
+@media screen and (max-width: 450px) {
+    .our-customers-items {
+        height: 420px;
+    }
+    .details-main-customers {
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .our-customers-items {
+        height: 450px;
+    }
+    .details-main-customers {
+        padding-left: 3%;
+    }
+}
