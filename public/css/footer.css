@@ -1,0 +1,112 @@
+
+.row-custom {
+    margin-left: calc(var(--custom-gutter-footer) * -0.5);
+    margin-right: calc(var(--custom-gutter-footer) * -0.5);
+}
+
+.col-custom {
+    padding-left: calc(var(--custom-gutter-footer) * 0.5);
+    padding-right: calc(var(--custom-gutter-footer) * 0.5);
+}
+
+
+.footer {
+    background-color: #10375C;
+    color: #fff;
+    padding: 50px 0;
+}
+
+/* Logo & Map */
+.footer_logo-map .footer_logo {
+    margin-bottom: 50px;
+}
+
+.footer_logo-map .footer_map {
+    max-width: 350px;
+}
+
+/* Contact */
+.footer_contact .footer_contact-name {
+    margin-bottom: 30px;
+}
+
+.footer_contact h6.footer_contact-name {
+    color: #FFF114;
+}
+
+.footer_contact .footer_contact-list li {
+    margin-bottom: 25px;
+}
+
+.footer_contact .footer_contact-list li .footer_contact-list-title {
+    font-weight: 500;
+}
+
+/* Content */
+.footer_content h6.footer_content-name {
+    margin-bottom: 30px;
+}
+
+.footer_content .footer_content-list li {
+    margin-bottom: 25px;
+}
+
+/* Connect */
+.footer_connect h6.footer_connect-name {
+    margin-bottom: 40px;
+}
+
+.footer_connect .footer_connect-list li {
+    margin-bottom: 40px;
+}
+
+.footer_connect .footer_connect-list li .footer_connect-list-app {
+    margin-right: 15px;
+}
+
+/* Copyright */
+.footer_copyright {
+    margin-top: 45px;
+}
+
+.footer_copyright-divider {
+    border-bottom: 1px solid #FFF114;
+}
+
+.footer_copyright-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer_copyright-content .footer_copyright-title {
+    font-size: 12px;
+}
+
+.footer_copyright-content .footer_copyright-privacy {
+    display: flex;
+}
+
+.footer_copyright-privacy .privacy-terms {
+    font-size: 12px;
+    margin-right: 20px;
+}
+
+.footer_copyright-privacy .privacy-policty {
+    font-size: 12px;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1400px) {
+    .footer_content,
+    .footer_connect {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .footer_contact {
+        margin-top: 50px;
+    }
+}
