@@ -1,7 +1,7 @@
 .background-full-size {
     min-height: 610px;
     background-image: linear-gradient(to right);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/public/images/activitie.png);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/activitie.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

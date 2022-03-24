@@ -96,6 +96,10 @@
     flex-direction: column;
     align-items: center;
   }
+  .about-us-wrap { 
+    margin-top: 15px;
+  }
+  
 }
 @media screen and (max-width: 525px) {
   .about-us-main {

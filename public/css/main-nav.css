@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     display: flex;
-    padding-top: 25px;
+    padding-top: 10px;
     border-bottom: 1px solid #fff114;
     z-index: 10001;
     transition: all 0.3s ease-in-out;

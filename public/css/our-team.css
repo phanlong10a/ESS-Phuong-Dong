@@ -25,7 +25,7 @@
     border-radius: 0px;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url(/public/images/our-team/member-1.png);
+    background-image: url(../images/our-team/member-1.png);
 }
 .our-team-member-1-info{
     position: relative;
@@ -118,7 +118,7 @@
     left: 477.853515625px;    
     top: -68px;
     border-radius: 0px;
-    background-image: url(/public/images/our-team/member-2.png);
+    background-image: url(../images/our-team/member-2.png);
 }
 .our-team-member{
     box-shadow: 0px 5px 19px rgba(0, 0, 0, 0.07);

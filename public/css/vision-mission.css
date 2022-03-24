@@ -1,0 +1,102 @@
+.vision-misson {
+    background: url('../images/vision-mission-bg.png') center / cover no-repeat;
+    padding-top: 33%;
+    position: relative;
+    color: #fff;
+}
+
+.vision-misson .blur-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #10375C;
+    opacity: 0.9;
+}
+
+.vision-misson .vision-misson_container {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.vision-misson .vision-misson_content-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Content */
+.vision-misson_content {
+    max-width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.vision-misson_content .content_img-wrapper {
+    margin-bottom: 0.5rem;
+}
+
+.vision-misson_content .content_title {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.vision-misson_content .content-divider {
+    width: 100%;
+    height: 5px;
+    margin-bottom: 2rem;
+    background-color: #FFF114;
+}
+
+.vision-misson_content .content-text {
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 1199px) {
+    .vision-misson_content .content_title {
+        font-size: 2rem;
+    }
+
+    .vision-misson_content .content-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .vision-misson_content .content_title {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .vision-misson_content .content-divider {
+        margin-bottom: 1rem;
+    }
+
+    .vision-misson_content .content-text {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .vision-misson {
+        padding-top: 0;
+        height: 600px;
+    }
+
+    .vision-misson_column {
+        margin-bottom: 40px;
+    }
+
+    .vision-misson_column:last-child {
+        margin-bottom: 0;
+    }
+}
